@@ -13,7 +13,7 @@
 
 <body onload="inicializar()">
 
-    <h1>Palavras Cruzadas</h1>
+    <h1><img src="PALAVRA.png" alt=""></h1>
 
     <div id="fundo_jogo">
         <table id="palavras_cruzadas">
@@ -21,7 +21,7 @@
     </div>
 
     <div class="escrita">
-        <h3>DICAS - HORIZONTAL</h3>
+        <h3><img src="HORIZONTE.png" alt=""></h3>
         <hr>
         <p >1. Parte de um sistema computacional que realiza as instruções de um programa de computador</p>
         <p>5. Permite a gravação de dados uma única vez, não sendo possível apagar ou editar nenhuma informação, somente acessar a mesma.</p>
@@ -33,7 +33,7 @@
     </div>
 
     <div class="escrita">
-        <h3>DICAS - VERTICAL </h3>
+        <h3><img src="vertical.png" alt=""></h3>
         <hr>
             <p>2. Uma das partes centrais da Unidade central de processamento, responsavel por operações de adição e booleana</p>
             <p>3. Circuito capaz de armazena e deslocar informações binarias, que serve para guarda dados e endereços</p>
@@ -48,9 +48,15 @@
             <p>17. Subsistema dentro do processador, onde os processos irão se dividir em duas ou mais tarefas.</p>
     </div>
 
-    <div>
+    <div style="display: flex; position: relative; top: 1000px; right: 500px">
         <input class="botao" type="submit" value="Checar" onclick="checar()">
         <input class="botao" type="submit" value="Reiniciar" onclick="reiniciar()">
+    </div>
+
+    <div class="footer">
+        <div class="container" >
+        <h4>Feito por João Duarte - Rafael Reis - Gustavo Torres &copy; 2023</h4>
+        </div>
     </div>
 
     

@@ -13,10 +13,11 @@
 		width: 50px;
         height:50px;
         text-transform: uppercase;
+        font-weight: 700;
 }
 
 td {
-    border: 1px solid black;
+    border: 5px solid rgb(0, 0, 0);
 }
 h1{
     text-align: center;
@@ -35,7 +36,6 @@ h3{
 
 .escrita {
     text-align: left;
-    border: 1px solid black;
     padding-left: 10px;
     width: 300px;
     height: auto;
@@ -47,5 +47,28 @@ h3{
     margin: 10px;
     width: 150px;
     height: 30px;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    border-top: 3px solid #ffffff;
+}
+
+.footer {
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.footer h4 {
+    margin: 0;
+}
+
+.footer .container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
 }
 
