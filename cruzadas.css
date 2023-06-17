@@ -1,3 +1,7 @@
+body {
+    background-color: #50136c;
+}
+
 #palavras_cruzadas{
     border: 1px solid blue;
     text-align: center;
@@ -14,6 +18,7 @@
         height:50px;
         text-transform: uppercase;
         font-weight: 700;
+        background-color: yellow;
 }
 
 td {
@@ -41,23 +46,36 @@ h3{
     height: auto;
     float: left;
     margin: auto;
+    color: yellow;
 }
 
 .botao{
     margin: 10px;
     width: 150px;
     height: 30px;
+    border-radius: 20px;
+    background-color: #50136c;
+    border: solid 1px;
+    border-color: yellow;
+}
+
+.trasition_background {
+    transition: background-color 1s;
+}
+
+.trasition_background:hover {
+    background-color: yellow;
 }
 
 .footer {
     text-align: center;
     padding: 40px 0;
-    border-top: 3px solid #ffffff;
+    border-top: 3px solid #50136c;
 }
 
 .footer {
     width: 100%;
-    background-color: #ffffff;
+    background-color: #50136c;
     color: #000000;
 }
 
@@ -72,3 +90,79 @@ h3{
     height: 100%;
 }
 
+.logo_menor {
+    display: none;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 80px;
+    height: 70px;
+}
+
+.logo {
+    display: flex;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    left: 20px;
+    width: 40%;
+    flex-direction: column;
+    color: yellow;
+}
+
+.mensagem {
+    display: none;
+    margin: auto;
+    position: absolute; 
+    font-size: 15px;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+
+.box_icone {
+    display: none;
+    margin: auto;
+    position: relative;
+    width: 2%;
+    height: 2%;
+    margin-top: 150px;
+    left: -10px;
+}
+
+.icone {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border: solid 5px;
+    border-color: #000000;
+    border-radius: 10px;
+}
+
+.redirecionar {
+    display: none;
+    margin: auto;
+    position: relative;
+    margin-left: 713px;
+    margin-top: 20px;
+}
+
+.transitar {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    margin-top: -60px;
+}
+
+.button {
+    display: flex;
+    margin: auto;
+    background-color: transparent;
+    color: yellow;
+    font-size: 30px;
+}
